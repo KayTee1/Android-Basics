@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ValuuttaMuunnin</string>
+    <string name="title_activity_settings">AsetuksetNäkymä</string>
+    <string name="eur">EUR</string>
+    <string name="usd">USD</string>
+    <string name="convert">Muunna</string>
+    <string name="settings">Asetukset</string>
+    <string name="switchDir">Muunnin Suunta</string>
+    <string name="customMultiplier">Muuntimen Kerroin</string>
+    <string name="back">Takaisin</string>
+</resources>
