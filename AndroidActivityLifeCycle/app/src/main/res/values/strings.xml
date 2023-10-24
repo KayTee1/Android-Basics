@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidActivityLifeCycle</string>
+    <string name="button_clicked">Hello From Code</string>
+    <string name="increment_button">Click to Increment counter!</string>
+    <string name="header_editText">Header</string>
+    <string name="counter_textView">Counter</string>
+</resources>
