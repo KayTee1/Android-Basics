@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.weatherapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.weatherapp"
@@ -14,6 +14,7 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
     }
 
     buildTypes {
@@ -32,6 +33,8 @@ android {
 }
 
 dependencies {
+    implementation("com.android.volley:volley:1.2.1")
+    implementation ("io.github.cdimascio:java-dotenv:5.2.2")
 
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
