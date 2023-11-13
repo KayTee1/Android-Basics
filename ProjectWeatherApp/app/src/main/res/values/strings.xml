@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProjectWeatherApp</string>
+    <string name="app_header">Weather App</string>
+    <string name="settings_button">Settings</string>
+    <string name="weather_button">Update</string>
+    <string name="temperature_textView">Temperature: </string>
+    <string name="description_textView">Description: </string>
+    <string name="windspeed_textView">Wind Speed: </string>
+    <string name="selectedLocation_textView">Tampere</string>
+
+    <string name="settings_header">Settings</string>
+    <string name="back_button">Back</string>
+    <string name="countryselector_editText">Country / City</string>
+    <string name="language_switch">English / Finnish</string>
+</resources>

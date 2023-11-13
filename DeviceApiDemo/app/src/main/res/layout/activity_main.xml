@@ -18,15 +18,26 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/sensorTextView2"
+        android:id="@+id/latitudeTextView"
         android:layout_width="337dp"
         android:layout_height="58dp"
         android:layout_marginTop="44dp"
-        android:text="Lat: Lng:"
+        android:text="Lat:"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sensorTextView" />
+
+    <TextView
+        android:id="@+id/longitudeTextView"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp"
+        android:text="Lng:"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/latitudeTextView" />
 
     <Button
         android:id="@+id/button"
@@ -38,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sensorTextView2" />
+        app:layout_constraintTop_toBottomOf="@+id/latitudeTextView" />
 
     <Button
         android:id="@+id/button3"
